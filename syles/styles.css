@@ -108,3 +108,7 @@ p {
     align-self: center;
   }
 }
+.info-btn a {
+  color: white;
+  text-decoration: none;
+}
