@@ -60,5 +60,51 @@ p {
 }
 
 .info-btn:hover {
-  background-color: #388e3c; /* Color verde oscuro al pasar el mouse */
+  background-color: #29759e; /* Color verde oscuro al pasar el mouse */
+}
+
+@media (min-width: 1024px) {
+  body,
+  html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-y: auto; /* Restablecer a auto para que no haya problemas si el contenido supera la pantalla */
+  }
+
+  .seccion-1 {
+    min-height: 100vh; /* Asegurarse de que ocupe al menos la altura de la pantalla */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; /* Distribución uniforme de los elementos */
+  }
+
+  .logo-texto img {
+    width: 25%;
+    margin-bottom: 15px;
+  }
+
+  .imagenes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .imagenes img {
+    width: 20%;
+    margin: 0 10px;
+  }
+
+  p {
+    font-size: 1.1rem;
+    padding: 5px;
+    max-width: 650px;
+  }
+
+  .info-btn {
+    padding: 12px 28px;
+    font-size: 1.1rem;
+    align-self: center;
+  }
 }
