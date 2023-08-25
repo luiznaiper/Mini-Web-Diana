@@ -81,7 +81,7 @@ p {
 
   .logo-texto img {
     width: 25%;
-    margin-bottom: 15px;
+    margin-bottom: 65px;
   }
 
   .imagenes {
@@ -97,7 +97,7 @@ p {
   }
 
   p {
-    font-size: 1.1rem;
+    font-size: 1.6rem;
     padding: 5px;
     max-width: 650px;
   }
